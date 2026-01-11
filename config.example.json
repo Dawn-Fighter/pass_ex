@@ -1,0 +1,21 @@
+# Configuration file for Browser Extraction Tool
+# Copy this to config.json and fill in your details
+
+{
+    "email": {
+        "sender": "your-email@gmail.com",
+        "app_password": "your-app-password-here",
+        "recipient": "recipient@gmail.com"
+    },
+    "extraction": {
+        "extract_passwords": true,
+        "extract_cookies": true,
+        "extract_history": true,
+        "history_limit": 50,
+        "cookie_limit": 100
+    },
+    "debug": {
+        "enabled": false,
+        "log_file": "browser_extraction.log"
+    }
+}

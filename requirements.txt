@@ -1,0 +1,4 @@
+pyperclip==1.8.2
+pycryptodome==3.19.0
+requests==2.31.0
+pywin32==306
